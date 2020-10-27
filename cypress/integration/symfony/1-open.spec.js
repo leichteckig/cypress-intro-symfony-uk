@@ -8,8 +8,8 @@ describe('Open and find symfony.com- One heading and logo', () => {
         cy.visit('/');
     })
 
-    // Actual test, see if the headline is actually 'PHP Usergroup Muenster'
-    it('Find symfony.com title', () => {
+    // Actual test, see if the headline is actually 'Getting Started with Symfony'
+    it('Find symfony.com heading - getting started', () => {
         // Use incorrect' string by purpose!
         cy.get('.symfony-intro').contains('Getting Started with Symfony');
     });

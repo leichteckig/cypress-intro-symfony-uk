@@ -13,8 +13,8 @@ const devices = [{
     orientation: 'landscape',
 }];
 
-describe('Open and find phpugms logo', () => {
-    // We iterate though the devices
+describe('Open symfony.com site', () => {
+    // We iterate though the array with the devices
     devices.forEach(device => {
 
         // Use an own context for better hook usage
