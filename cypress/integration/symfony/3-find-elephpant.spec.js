@@ -5,7 +5,7 @@
             cy.visit('/');
         })
 
-        // Actual test, see if the headline is actually 'PHP Usergroup Muenster'
+        // Actual test
         it('Open elephpant\'s page', () => {
             // Define the request we want to wait for
             cy.server();
